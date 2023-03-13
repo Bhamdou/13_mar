@@ -1,0 +1,37 @@
+Problem Statement
+A store wants to keep track of its inventory, which consists of various products. Each product has the following information:
+
+Name
+Price
+Quantity in stock
+Write a program that allows the store to:
+
+Add a new product to the inventory
+Remove a product from the inventory
+Update the price of a product
+Update the quantity of a product in stock
+Display the current inventory and the total value of all products in stock
+Requirements
+Create a function named add_product that takes in the following parameters: name, price, and quantity. This function should add the product to the inventory as a dictionary with the keys 'name', 'price', and 'quantity'.
+
+Create a function named remove_product that takes in the parameter name. This function should remove the product from the inventory. If the product does not exist, the function should print a message saying that the product was not found.
+
+Create a function named update_price that takes in the parameters name and price. This function should update the price of the product in the inventory. If the product does not exist, the function should print a message saying that the product was not found.
+
+Create a function named update_quantity that takes in the parameters name and quantity. This function should update the quantity of the product in the inventory. If the product does not exist, the function should print a message saying that the product was not found.
+
+Create a function named display_inventory that takes in no parameters. This function should display the current inventory and the total value of all products in stock. The value of each product is calculated as the product's price multiplied by its quantity.
+
+In the main program, create a list named inventory to store the products.
+
+Add several products to the inventory using the add_product function.
+
+Remove a product from the inventory using the remove_product function.
+
+Update the price of a product in the inventory using the update_price function.
+
+Update the quantity of a product in the inventory using the update_quantity function.
+
+Display the current inventory and the total value of all products in stock using the display_inventory function.
+
+
